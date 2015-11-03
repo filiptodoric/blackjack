@@ -1,10 +1,18 @@
 ---
 layout: default
 ---
+<script>
+function change(){
+  $("#test").html("bang");
+}
+  console.dir("hello");
+</script>
 
 <div class="home">
 
   <h1 class="page-heading">Welcome to Blackjack!</h1>
 
+  <div id="test"> All stuff goes here </div>
+  <button onclick="change()">Bang</button>
 
 </div>
